@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+/**
+ * 二叉树链表
+ */
 struct TreeNode {
     int val;
     struct TreeNode *left;
@@ -19,6 +22,12 @@ void DLR(TreeNode* T)
         DLR(T->right);
     }
 }
+/** 请实现一个函数按照之字形打印二叉树，
+ * 即第一行按照从左到右的顺序打印，
+ * 第二层按照从右至左的顺序打印，
+ * 第三行按照从左到右的顺序打印，
+ *其他行以此类推。
+ */
 class Solution {
 public:
     vector<vector<int> > result;
