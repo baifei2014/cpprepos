@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+
 /** 
  * Definition for binary tree
  */
@@ -91,6 +92,7 @@ public:
         
     }
 };
+
 void main(){
     Solution solute;
     vector<int> pre, vin;
